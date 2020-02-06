@@ -1,0 +1,7 @@
+
+
+class DatabaseGenerator {
+    constructor(fields) {
+
+    }
+}

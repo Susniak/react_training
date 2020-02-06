@@ -1,0 +1,21 @@
+.datepicker-input {
+  &__container {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__modal {
+    background-color: white;
+    width: 330px;
+    padding: size(2);
+  }
+  &__modal-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: size(1);
+  }
+  &__modal-select {
+    width: calc(50% - #{size(1)});
+  }
+}

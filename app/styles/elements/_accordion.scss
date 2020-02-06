@@ -1,0 +1,29 @@
+.accordion {
+  display: block;
+  width: 100%;
+  box-shadow: $box-shadow;
+  border: 1px solid $grey1;
+
+  &__top {
+    padding: 10px;
+  }
+
+  &__bottom {
+    height: 0;
+    visibility: hidden;
+    padding: 0;
+    transition: padding-top 500ms, padding-bottom 500ms;
+  }
+
+  &--open {
+    .accordion__top {
+      border-bottom: 1px solid $grey1;
+    }
+
+    .accordion__bottom {
+      padding: 10px;
+      visibility: visible;
+      height: unset;
+    }
+  }
+}

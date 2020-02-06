@@ -1,0 +1,22 @@
+.confirmation-dialog {
+  width: 350px;
+  height: 150px;
+  background: $white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__header {
+
+  }
+
+  &__content {
+
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}

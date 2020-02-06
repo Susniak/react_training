@@ -1,0 +1,35 @@
+.generic-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid $grey3;
+  border-right: 1px solid $grey3;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    border-bottom: 1px solid $grey1;
+
+    &:nth-child(2n + 1) {
+      background-color: $grey2;
+    }
+
+    &:last-of-type {
+      border-bottom: 1px solid $grey3;
+    }
+
+    .generic-table thead & {
+      border-bottom: 1px solid $grey3;
+      border-top: 1px solid $grey3;
+      background-color: $grey1;
+    }
+  }
+
+  &__cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+  }
+}

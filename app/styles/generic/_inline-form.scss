@@ -1,0 +1,23 @@
+.inline-generic-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &__input-container {
+    width: 50%;
+  }
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+
+    input[type="text"] {
+      margin: 10px 0;
+      height: 35px;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #f1f1f1;
+      padding: 5px;
+    }
+  }
+}

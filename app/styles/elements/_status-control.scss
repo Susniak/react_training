@@ -1,0 +1,16 @@
+$size: 25px;
+
+.status-control {
+  width: $size;
+  height: $size;
+  border: 1px solid transparent;
+  border-radius: $size;
+
+  &--red {
+    background-color: red;
+  }
+
+  &--green {
+    background-color: green;
+  }
+}

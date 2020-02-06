@@ -1,0 +1,20 @@
+.header {
+  display: inline-flex;
+  flex-direction: column;
+
+  &__text {
+    font-size: 24px;
+    text-transform: uppercase;
+
+    .header--small & {
+      font-size: 16px;
+    }
+  }
+
+  &__border {
+    margin-top: size(1);
+    width: 50%;
+    max-width: 50px;
+    border-bottom: 2px solid $black;
+  }
+}

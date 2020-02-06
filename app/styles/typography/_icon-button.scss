@@ -1,0 +1,11 @@
+.icon-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  min-width: 30px;
+  min-height: 30px;
+  border: 1px solid $black;
+  background-color: $white;
+  cursor: pointer;
+}

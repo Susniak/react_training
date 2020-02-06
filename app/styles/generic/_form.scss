@@ -1,0 +1,22 @@
+.generic-form {
+  padding: 16px;
+  border: 1px solid rgba(232,229,232,1);
+  box-shadow: $box-shadow;
+  background-color: $grey2;
+
+  &__input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: size(2);
+  }
+
+  &__text-input {
+    height: 28px;
+    width: 60%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
